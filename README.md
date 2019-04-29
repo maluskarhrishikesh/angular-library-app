@@ -29,24 +29,80 @@ Type ng version to see if angular is installed properly.
 
 --------------------------------------------------------------------------------------------------
 
-Sports ->
-Sachin Tendulkar Bio
-https://upload.wikimedia.org/wikipedia/commons/9/91/Sachin_tendulkar.jpg
+As of now the Book Library Application works only with 2 users (user and admin).
 
-History of Football
-https://upload.wikimedia.org/wikipedia/commons/b/b9/Football_iu_1996.jpg
+    admin can add , eidt and delete a book
 
-Learn Tennis
-https://upload.wikimedia.org/wikipedia/commons/3/3e/Tennis_Racket_and_Balls.jpg
+    user can only add and edit a book.
+
+1) Login to the application using user / user as username and password.
+
+2) Home page will open , click on the name that appears at the right top corner (in this case hrishikesh).
+
+3) You will see 3 options -> "Add Book", "Manage Book" and "logout".
+
+4) Click on "Add Book" and enter the following details and click on save.
+
+Details->
+  Book Name : Sachin Tendulkar Bio
+  Book Description : Anything of your choice
+  Price : 499
+  Category : Sports
+  Date Of Publication : 1988-10-20 (YYYY-MM-DD Format)
+  Image URL : https://upload.wikimedia.org/wikipedia/commons/9/91/Sachin_tendulkar.jpg
+
+You can add few more entries as given below.
+
+  Book Name : History of Football
+  Book Description : Anything of your choice
+  Price : 199
+  Category : Sports
+  Date Of Publication : 1985-11-24 (YYYY-MM-DD Format)
+  Image URL : https://upload.wikimedia.org/wikipedia/commons/b/b9/Football_iu_1996.jpg
+
+
+  Book Name : Learn Professional Tennis
+  Book Description : Anything of your choice
+  Price : 399
+  Category : Sports
+  Date Of Publication : 1978-06-18 (YYYY-MM-DD Format)
+  Image URL : https://upload.wikimedia.org/wikipedia/commons/3/3e/Tennis_Racket_and_Balls.jpg
+
+
+  Book Name : Java Persistence
+  Book Description : Anything of your choice
+  Price : 249
+  Category : Technology
+  Date Of Publication : 1999-06-18 (YYYY-MM-DD Format)
+  Image URL : https://upload.wikimedia.org/wikipedia/commons/d/d1/Java-persistence.PNG
+  
+  
+  Book Name : Wikis for dummies
+  Book Description : Anything of your choice
+  Price : 749
+  Category : Technology
+  Date Of Publication : 2008-08-15 (YYYY-MM-DD Format)
+  Image URL : https://upload.wikimedia.org/wikipedia/en/1/15/Wikis_for_Dummies_cover.png
+
+
+  Book Name : Head First Java
+  Book Description : Anything of your choice
+  Price : 749
+  Category : Technology
+  Date Of Publication : 2004-04-25 (YYYY-MM-DD Format)
+  Image URL : https://www.safaribooksonline.com/library/cover/0596009208/360h/
+
+
+ 5) You can also click on "Manage Book" to edit the records.
+ 
+ 6) Click on home page to see all the books in one place.
+ 
+ 7) You can click on the categories at the left side of the screen to see books only of that particular category. 
 
 
 
-Technology -> 
-Java Persistence
-https://upload.wikimedia.org/wikipedia/commons/d/d1/Java-persistence.PNG
 
-Wikis for dummies
-https://upload.wikimedia.org/wikipedia/en/1/15/Wikis_for_Dummies_cover.png
 
-Head First Java
-https://www.safaribooksonline.com/library/cover/0596009208/360h/
+
+
+
