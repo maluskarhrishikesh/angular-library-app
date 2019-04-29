@@ -1,4 +1,5 @@
 # angular-library-app
+Frontend for "Book Library Application" that connects to postgres database via springboot microservice.
 
 Make sure you have node , npm and angular installed on your system.
 Angular requires Node.js version 8.x or 10.x.
