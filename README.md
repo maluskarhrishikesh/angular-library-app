@@ -1,17 +1,29 @@
 # angular-library-app
+
 Make sure you have node , npm and angular installed on your system.
+Angular requires Node.js version 8.x or 10.x.
+
+To check your version, run node -v in a terminal/console window.
+
+To get Node.js, go to https://nodejs.org
+
+Install angular with this command -> npm install -g @angular/cli
+
+Type ng version to see if angular is installed properly.
+
+-----------------------------------------------------------------------------
 
 1) Clone this repository from master.
 
-2) Go inside "angular-library-app" and right click -> open command prompt.
+2) Go inside "angular-library-app" folder and open some terminal/console.
 
 3) In the command prompt type the following commands ->
 
-npm install
+      npm install
 
-ng serve
+      ng serve
 
-In the browser you can now type http://localhost:4200 to run the applicaiton.
+4) In the browser you can now type http://localhost:4200 to run the applicaiton.
 
 
 Sports ->
