@@ -11,7 +11,7 @@ Install angular with this command -> npm install -g @angular/cli
 
 Type ng version to see if angular is installed properly.
 
------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 1) Clone this repository from master.
 
@@ -23,8 +23,11 @@ Type ng version to see if angular is installed properly.
 
       ng serve
 
-4) In the browser you can now type http://localhost:4200 to run the applicaiton.
+4) In the browser you can now type http://localhost:4200 to run the application.
 
+5) Now run the springboot microservice (steps available here -> https://github.com/maluskarhrishikesh/springboot-library-microservice)
+
+--------------------------------------------------------------------------------------------------
 
 Sports ->
 Sachin Tendulkar Bio
