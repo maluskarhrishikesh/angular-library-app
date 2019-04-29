@@ -1,0 +1,45 @@
+<app-nav-bar></app-nav-bar>
+
+<p></p>
+<p>
+  <input #query
+         (keyup)="filter(query.value)"
+         type="text"
+         class="form-control"
+         placeholder="Type book name to search...">
+</p>
+
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Book Name</th>
+        <th>Book Description</th>
+        <th>Book Price</th>
+        <th>Date of Publication</th>
+        <th>Edit</th>
+        <th *ngIf="isAdmin=='true'">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of filteredProducts">
+        <td>{{ product.bookName }}</td>
+        <td>{{ product.bookDescription }}</td>
+        <td>{{ product.bookPrice }}</td>
+        <td>{{ product.dateOfPublication | date }}</td>
+        <td><a [routerLink]="['/books/edit/', product.bookId]"><a class="btn btn-primary"
+               href="#navigation-main"
+               aria-label="Skip to main navigation">
+              <i class="fa fa-bars"
+                 aria-hidden="true"></i>
+            </a></a></td>
+        <td *ngIf="isAdmin=='true'"><a (click)=delete(product.bookId)>
+            <a class="btn btn-danger"
+               aria-label="Delete">
+              <i class="fa fa-trash-o"
+                 aria-hidden="true"></i>
+            </a></a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
