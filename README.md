@@ -44,6 +44,7 @@ As of now the Book Library Application works only with 2 users (user and admin).
 4) Click on "Add Book" and enter the following details and click on save.
 
 Details->
+----------
   Book Name : Sachin Tendulkar Bio
   
   Book Description : Anything of your choice
@@ -130,6 +131,7 @@ You can add few more entries as given below.
   
   ----------
 
+
  5) You can also click on "Manage Book" to edit the records.
  
  6) Click on home page to see all the books in one place.
@@ -145,7 +147,10 @@ You can add few more entries as given below.
  11) All the options are similar to the user login explained above, except that an Admin can also delete records by clicking on "Manage Book" option.
 
 
-Note: "User-Role Management" can be included in this so that you can create users of your choice, instead of using only user and admin logins.
+
+Note:
+-----
+"User-Role Management" can be included in this so that you can create users of your choice, instead of using only user and admin logins.
 
 
 
