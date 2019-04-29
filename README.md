@@ -1,12 +1,17 @@
 # angular-library-app
+Make sure you have node , npm and angular installed on your system.
 
-Clone this repository from master.
+1) Clone this repository from master.
 
-Go inside "angular-library-app" and right click -> open command prompt.
+2) Go inside "angular-library-app" and right click -> open command prompt.
 
-In the command prompt type the following commands ->
+3) In the command prompt type the following commands ->
+
 npm install
+
 ng serve
+
+In the browser you can now type http://localhost:4200 to run the applicaiton.
 
 
 Sports ->
