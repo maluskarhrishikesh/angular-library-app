@@ -35,7 +35,7 @@ As of now the Book Library Application works only with 2 users (user and admin).
 
     user can only add and edit a book.
 
-1) Login to the application using user / user as username and password.
+1) Login into the application using user / user as username and password.
 
 2) Home page will open , click on the name that appears at the right top corner (in this case hrishikesh).
 
@@ -128,14 +128,24 @@ You can add few more entries as given below.
   
   Image URL : https://www.safaribooksonline.com/library/cover/0596009208/360h/
   
+  ----------
 
  5) You can also click on "Manage Book" to edit the records.
  
  6) Click on home page to see all the books in one place.
  
  7) You can click on the categories at the left side of the screen to see books only of that particular category. 
+ 
+ 8) At the top of the screen you can enter the name of the book that you wish to search.
+ 
+ 9) Click on logout.
+ 
+ 10) Login into the application using admin / admin as username and password. 
+ 
+ 11) All the options are similar to the user login explained above, except that an Admin can also delete records by clicking on "Manage Book" option.
 
 
+Note: "User-Role Management" can be included in this so that you can create users of your choice, instead of using only user and admin logins.
 
 
 
