@@ -53,8 +53,8 @@ Details->
 
 You can add few more entries as given below.
 
-  Book Name : History of Football
-  Book Description : Anything of your choice
+  Book Name : History of Football 
+  Book Description : Anything of your choice 
   Price : 199
   Category : Sports
   Date Of Publication : 1985-11-24 (YYYY-MM-DD Format)
